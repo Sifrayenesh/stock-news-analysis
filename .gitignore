@@ -51,3 +51,6 @@ build/
 
 # Windows
 Thumbs.db
+# .gitignore (add to the bottom)
+notebooks/*.nbconvert.ipynb  # Exclude converted notebooks
+.ipynb_checkpoints/          # Exclude Jupyter autosave dirs
